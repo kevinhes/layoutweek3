@@ -1,0 +1,84 @@
+.products-banner-list{
+    .sun-banner-left{
+        background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-3.png?raw=true);
+        background-position: center;
+        background-size: cover;
+    }
+    .sun-banner-right{
+        background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2-color.png?raw=true);
+        background-position: center;
+        background-size: cover;
+    }
+}
+.products-list{
+    li:nth-last-child(1){
+        margin-bottom: 0px;
+    }
+    li:nth-last-child(2){
+        margin-bottom: 0px;
+    }
+    li:nth-last-child(3){
+        margin-bottom: 0px;
+    }
+    .sun-products-item{
+        width: 350px;
+        img{
+            display: block;
+            width: inherit;
+            height: 224px;
+        }
+        .price{
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .colors-list{
+            display: flex;
+            .colors-item{
+                width: 24px;
+                height: 24px;
+                margin-right: 8px;
+                border-radius: 4px;
+            }
+        }
+    }
+    @media(max-width:992px){
+        .sun-products-item{
+            width: 330px;
+            margin-bottom: 72px;
+            .price{
+                font-size: 24px;
+                line-height: 1.5;
+            }
+            .colors-list{
+                display: flex;
+                .colors-item{
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
+                    border-radius: 4px;
+                }
+            }
+        }       
+    }
+    @media(max-width:767px){
+        .sun-products-item{
+            width: 345px;
+            margin-bottom: 32px;
+            .price{
+                font-size: 16px;
+                line-height: 21px;
+            }
+            .colors-list{
+                display: flex;
+                .colors-item{
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 4px;
+                    border-radius: 4px;
+                }
+            }
+        }       
+    }
+}
