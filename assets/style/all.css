@@ -1253,4 +1253,274 @@ img {
         margin-right: 4px;
         border-radius: 4px; } }
 
+.location {
+  padding-top: 96px;
+  padding-bottom: 160px; }
+  .location .subtitle {
+    text-align: left;
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+    margin-bottom: 60px; }
+    @media (max-width: 992px) {
+      .location .subtitle {
+        font-size: 48px;
+        line-height: 67px;
+        border-left: 4px solid #9F1213;
+        margin-bottom: 40px; } }
+    @media (max-width: 767px) {
+      .location .subtitle {
+        font-size: 28px;
+        line-height: 40px;
+        padding-left: 8px; } }
+  .location form {
+    margin-bottom: 32px; }
+    @media (max-width: 992px) {
+      .location form {
+        margin-bottom: 24px; } }
+    @media (max-width: 767px) {
+      .location form {
+        margin-bottom: 20px; } }
+  .location label {
+    font-size: 24px;
+    line-height: 35px;
+    margin-right: 20px; }
+    @media (max-width: 992px) {
+      .location label {
+        font-size: 16px;
+        line-height: 1.5; } }
+    @media (max-width: 767px) {
+      .location label {
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 12px; } }
+  .location select {
+    padding-top: 8px;
+    padding-left: 19px;
+    padding-bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #495057;
+    width: 324px;
+    border: 1px solid #CED4DA; }
+    @media (max-width: 992px) {
+      .location select {
+        font-size: 16px;
+        line-height: 1.5;
+        width: 237px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 12px; } }
+    @media (max-width: 767px) {
+      .location select {
+        width: 270px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 7px;
+        padding-left: 16px;
+        padding-bottom: 9px; } }
+  @media (max-width: 992px) {
+    .location {
+      padding-top: 60px;
+      padding-bottom: 96px;
+      padding-left: 39px;
+      padding-right: 39px; } }
+  @media (max-width: 767px) {
+    .location {
+      padding-top: 28px;
+      padding-bottom: 56px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.location-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .location-list li:nth-child(2), .location-list li:nth-child(5) {
+    margin-right: 30px;
+    margin-left: 30px; }
+  @media (max-width: 992px) {
+    .location-list li:nth-child(2), .location-list li:nth-child(5) {
+      margin-right: 0px;
+      margin-left: 0px; }
+    .location-list li:nth-child(odd) {
+      margin-right: 30px; } }
+  @media (max-width: 767px) {
+    .location-list li:nth-child(odd) {
+      margin-right: 0px; } }
+  .location-list li {
+    width: 350px;
+    margin-bottom: 32px; }
+    @media (max-width: 992px) {
+      .location-list li {
+        width: 330px;
+        margin-bottom: 20px; } }
+    @media (max-width: 767px) {
+      .location-list li {
+        width: 345px;
+        margin-bottom: 16px; } }
+    .location-list li img {
+      display: block; }
+    .location-list li h3 {
+      font-size: 24px;
+      line-height: 1.5;
+      padding-left: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 1px solid #00000020; }
+      @media (max-width: 992px) {
+        .location-list li h3 {
+          font-size: 16px;
+          padding-top: 8px;
+          padding-bottom: 8px; } }
+    .location-list li .local-info {
+      background: #000; }
+      .location-list li .local-info a {
+        text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        @media (max-width: 992px) {
+          .location-list li .local-info a {
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 16px;
+            padding-bottom: 16px; } }
+  .location-list .info {
+    border: 1px solid #00000020;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px; }
+    .location-list .info li:last-child {
+      margin-bottom: 0px; }
+    @media (max-width: 992px) {
+      .location-list .info {
+        padding-left: 26px;
+        padding-right: 26px; } }
+    .location-list .info .time {
+      margin-left: 0px; }
+    .location-list .info .tel, .location-list .info .time, .location-list .info .location-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 8px;
+      font-size: 20px;
+      line-height: 1.5; }
+      @media (max-width: 992px) {
+        .location-list .info .tel, .location-list .info .time, .location-list .info .location-item {
+          font-size: 14px;
+          line-height: 21px; } }
+      .location-list .info .tel span, .location-list .info .time span, .location-list .info .location-item span {
+        display: block;
+        font-size: 20px;
+        margin-right: 11px; }
+        @media (max-width: 992px) {
+          .location-list .info .tel span, .location-list .info .time span, .location-list .info .location-item span {
+            font-size: 16px; } }
+      .location-list .info .tel a, .location-list .info .time a, .location-list .info .location-item a {
+        text-decoration: none;
+        color: #000; }
+      .location-list .info .tel p, .location-list .info .time p, .location-list .info .location-item p {
+        width: 270px; }
+        @media (max-width: 992px) {
+          .location-list .info .tel p, .location-list .info .time p, .location-list .info .location-item p {
+            width: 250px; } }
+
+.taipei-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .taipei-location .taipei-info {
+    width: 445px;
+    margin-bottom: 32px; }
+    @media (max-width: 992px) {
+      .taipei-location .taipei-info {
+        width: 330px;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
+    @media (max-width: 767px) {
+      .taipei-location .taipei-info {
+        width: 345px;
+        margin-bottom: 16px; } }
+    .taipei-location .taipei-info img {
+      display: block;
+      height: 224px;
+      width: inherit; }
+      @media (max-width: 992px) {
+        .taipei-location .taipei-info img {
+          height: 164px; } }
+    .taipei-location .taipei-info h3 {
+      font-size: 24px;
+      line-height: 1.5;
+      padding-left: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 1px solid #00000020; }
+      @media (max-width: 992px) {
+        .taipei-location .taipei-info h3 {
+          font-size: 16px;
+          padding-top: 8px;
+          padding-bottom: 8px; } }
+
+.map img {
+  width: 635px;
+  height: 422px; }
+
+.info {
+  border: 1px solid #00000020;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+  .info li:last-child {
+    margin-bottom: 0px; }
+  @media (max-width: 992px) {
+    .info {
+      padding-left: 26px;
+      padding-right: 26px; } }
+  .info .time {
+    margin-left: 0px; }
+  .info .tel, .info .time, .info .location-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.5; }
+    @media (max-width: 992px) {
+      .info .tel, .info .time, .info .location-item {
+        font-size: 14px;
+        line-height: 21px; } }
+    .info .tel span, .info .time span, .info .location-item span {
+      display: block;
+      font-size: 20px;
+      margin-right: 11px; }
+      @media (max-width: 992px) {
+        .info .tel span, .info .time span, .info .location-item span {
+          font-size: 16px; } }
+    .info .tel a, .info .time a, .info .location-item a {
+      text-decoration: none;
+      color: #000; }
+    .info .tel p, .info .time p, .info .location-item p {
+      width: 270px; }
+      @media (max-width: 992px) {
+        .info .tel p, .info .time p, .info .location-item p {
+          width: 250px; } }
+
 /*# sourceMappingURL=all.css.map */
