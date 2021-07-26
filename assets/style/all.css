@@ -773,7 +773,7 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .recommend-item {
-    width: 50%;
+    width: 48%;
     margin-bottom: 32px; } }
 
 @media (max-width: 767px) {
