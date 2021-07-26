@@ -775,7 +775,9 @@ img {
   .recommend-item {
     width: 46%;
     margin: 0 0 0 30px;
-    margin-bottom: 32px; } }
+    margin-bottom: 32px; }
+    .recommend-item img {
+      width: 100%; } }
 
 @media (max-width: 767px) {
   .recommend {
