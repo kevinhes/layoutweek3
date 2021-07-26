@@ -1,0 +1,91 @@
+.taipei-location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .taipei-info{
+        width: 445px;
+        margin-bottom: 32px;
+        @media(max-width:992px){
+            width: 330px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        @media(max-width:767px){
+            width: 345px;
+            margin-bottom: 16px;
+        }
+        img{
+            display: block;
+            height: 224px;
+            width: inherit;
+            @media(max-width:992px){
+                height: 164px;
+            }
+        }
+        h3{
+            font-size: 24px;
+            line-height: 1.5;
+            padding-left: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 1px solid #00000020;
+            @media(max-width:992px){
+                font-size: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+}
+    .map{
+        img{
+            width: 635px;
+            height: 422px;
+        }
+    }
+    .info{
+        border: 1px solid #00000020;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        li:last-child{
+            margin-bottom: 0px;
+        }
+        @media(max-width:992px){
+            padding-left: 26px;
+            padding-right: 26px;
+        }
+        .time{
+            margin-left: 0px;
+        }
+        .tel,.time,.location-item{
+            display: flex;
+            margin-bottom: 8px;
+            font-size: 20px;
+            line-height: 1.5;
+            @media(max-width:992px){
+                font-size: 14px;
+                line-height: 21px;
+            }
+            span{
+                display: block;
+                font-size: 20px;
+                margin-right: 11px;
+                @media(max-width:992px){
+                    font-size: 16px;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+            p{
+                width: 270px;
+                @media(max-width:992px){
+                    width: 250px;
+                }
+            }
+        }
+    }

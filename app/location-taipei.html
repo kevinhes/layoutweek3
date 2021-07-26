@@ -1,0 +1,45 @@
+---
+title: 門市據點-台北中山店
+layout: ./app/layout.ejs
+engine: ejs
+---
+<div class="location container">
+    <h2 class="subtitle">門市據點</h2>
+    <form>
+        <label for="location">選擇分店</label>
+        <select name="location" id="location">
+            <option value="taipei">台北中山旗艦店</option>
+        </select>
+    </form>
+    <div class="taipei-location">
+        <div class="taipei-info">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/locate1.jpeg?raw=true" alt="台北中山旗艦店">
+            <div class="info-detial">
+                <h3>台北中山旗艦店</h3>
+                <ul class="info">
+                    <li class="tel">
+                        <span class="material-icons-outlined">
+                            phone
+                            </span>
+                        <a href="tel:+(02)000-1234">電話：(02)000-1234</a>
+                    </li>
+                    <li class="time">
+                        <span class="material-icons-outlined">
+                            schedule
+                            </span>
+                        <p>營業時間：10:00-21:00</p>
+                    </li>
+                    <li class="location-item">
+                        <span class="material-icons-outlined">
+                            location_on
+                            </span>
+                        <p>地址：台北市中山區南京東路</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="map">
+            <img src="assets/images/google map.png" alt="google map">
+        </div>
+    </div>
+</div>
